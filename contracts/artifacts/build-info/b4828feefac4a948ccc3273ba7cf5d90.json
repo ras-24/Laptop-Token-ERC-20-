@@ -1,5 +1,5 @@
 {
-	"id": "ffb2cfd7330d431f82dd7818d642fc9d",
+	"id": "b4828feefac4a948ccc3273ba7cf5d90",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.26",
 	"solcLongVersion": "0.8.26+commit.8a97fa7a",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"contracts/LaptopTokenERC20.sol": {
-				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.7.0 <0.9.0;"
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\n"
 			}
 		},
 		"settings": {
@@ -63,7 +63,7 @@
 							"src": "33:31:0"
 						}
 					],
-					"src": "33:31:0"
+					"src": "33:35:0"
 				},
 				"id": 0
 			}
