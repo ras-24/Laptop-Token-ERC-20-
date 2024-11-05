@@ -10,4 +10,8 @@ contract LaptopToken is ERC20, Ownable {
     function mint(address _to, uint256 _amount) public {
         _mint(_to, _amount * (10 ** decimals()));
     }
+
+    function burn(uint256 _amount) public onlyOwner {
+        _burn(msg.sender, _amount * (10 ** decimals()));
+    }
 }

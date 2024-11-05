@@ -147,6 +147,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "decimals",
 				"outputs": [
@@ -430,11 +443,11 @@
 	},
 	"sources": {
 		"contracts/LaptopTokenERC20.sol": {
-			"keccak256": "0x08a54590cbbb68cf0d1d701cb5ccbad84ad4fe45c309bcd707fb0905dbac689d",
+			"keccak256": "0x25ed730984d9d358e45076d1bbe45b2e161b8313c2b173625c95ea9208c006f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://83f7f6eb5752cdd83da09ee1cb3ebf26c32edcfa627e0413f421b34442474509",
-				"dweb:/ipfs/QmVWjxrLWEenBn5nhCfxXRMuHrZP1R6WmRjcReanhpP3Qp"
+				"bzz-raw://de3b40d41d8566c1bb564e1106148a37ac73bead3715476b9908fdcb9234df64",
+				"dweb:/ipfs/QmXFTyVxneSVTD8KPfyN7sDGmz2pVnYSfn9tWx42Q5GtC4"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/access/Ownable.sol": {
