@@ -1,4 +1,4 @@
-REMIX DEFAULT WORKSPACE
+# Laptop Token (LPT) ERC-20
 
 Remix default workspace is present when:
 i. Remix loads for the very first time 
