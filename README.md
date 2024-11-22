@@ -5,3 +5,4 @@ This token is used for payment transactions on the [Laptop Marketplace Smart Con
 ## Features
 1. **Mint** -> Creates new tokens and assigns them to a specific address.
 2. **Burn** -> Allows the owner to destroy a certain amount of tokens.
+3. **checkBalance** -> Allows the owner to check token balance.
