@@ -236,11 +236,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_to",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "_amount",
 						"type": "uint256"
@@ -456,11 +451,11 @@
 	},
 	"sources": {
 		"contracts/LaptopTokenERC20.sol": {
-			"keccak256": "0xe7ef3b71e3b59d7a558e498e9b8247762e685be3020909b3b1cd66e6d226f5c4",
+			"keccak256": "0x790506e7400aa46d47f21a0edc70a6a849c1d93070a470acb7479308579ebee7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://05d670a1aa877124b3d30772e90227af1e2ddf29d8748087d9486dc4fdfde26d",
-				"dweb:/ipfs/Qmc9WFR2uu9fj8KsA9DnpraE3vXHo8UmCNHZD21Q2gdCTk"
+				"bzz-raw://523a010abe64a69448bd725a4879c41f1a9d12768cdef23713ac8c7371c6111a",
+				"dweb:/ipfs/QmddLbWT9yWvZXVbod7LYGswA7ZHCRi4u3YM9tQ5vFYuzy"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/access/Ownable.sol": {
