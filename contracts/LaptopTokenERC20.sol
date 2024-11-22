@@ -14,4 +14,8 @@ contract LaptopToken is ERC20, Ownable {
     function burn(uint256 _amount) public onlyOwner {
         _burn(msg.sender, _amount * (10 ** decimals()));
     }
+
+    function checkBalance() public view returns (uint256) {
+        return balanceOf(msg.sender);
+    }
 }
